@@ -34,6 +34,8 @@ by the acme.sh script whenever renewing the certificate)
 
 ## Notes
 
+Tested with Proxmox VE version 8.2.4 only.
+
 The `_acme-challenge` TXT record is not deleted automatically by the script as the script is
 only able to update the record contents, not create or delete the record.
 If you need the `_acme-challenge` TXT record to be deleted after renewing the certificate, use some other
