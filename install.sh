@@ -21,7 +21,7 @@ diff -u $JSONFILE.bak $JSONFILE
 echo
 echo "Adding acme.sh script for HE DDNS in $ACMEFILE"
 
-cat >> $ACMEFILE << EOF
+cat > $ACMEFILE << EOF
 #!/usr/bin/env sh
 dns_he_ddns_info='Hurricane Electric HE.net DDNS
 Site: dns.he.net
