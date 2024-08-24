@@ -11,8 +11,8 @@ in PVE.
 
 ## Instructions
 
-1. Download and copy `install.sh` to the PVE host, for example in `/tmp`
-1. Inspect the contents of the `install.sh` script (this is important!)
+1. Download and copy the [`install.sh`](install.sh) script to the PVE host, for example in `/tmp`
+1. Inspect the contents of the install script (this is important!)
 1. If you think the script is safe to run, run it as root user, like `bash /tmp/install.sh`
 1. In the HE DNS portal (assuming you already have an A/AAAA record of `pvehostname.example.com` for your PVE node):
     1. Add TXT record for `_acme-challenge.pvehostname.example.com` in your DNS zone,
