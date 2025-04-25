@@ -1,6 +1,12 @@
 
 # Proxmox VE Acme.sh DNS API script for Hurricane Electric Dynamic DNS records
 
+> [!IMPORTANT]
+> **Update 2025-04-25:** acme.sh version [3.1.1](https://github.com/acmesh-official/acme.sh/releases/tag/3.1.1)
+now includes DNS API script for HE DDNS. Currently
+[proxmox-acme](https://git.proxmox.com/?p=proxmox-acme.git) is still waiting for upgrading the plugins.
+This repository is not needed anymore.
+
 Proxmox Virtual Edition (PVE) uses [acme.sh](https://github.com/acmesh-official/acme.sh) DNS API scripts
 to interface with various DNS providers in order to automate the use of Let's Encrypt certificates.
 Currently there is no built-in support for the per-record Dynamic DNS API of
